@@ -49,4 +49,3 @@ jobs:
           DB_USER: ci_user
           DB_PASSWORD: ci_password
           DDL_AUTO: validate
-          JWT_SECRET: ${{ secrets.JWT_SECRET }}
