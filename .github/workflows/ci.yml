@@ -43,7 +43,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Run build with test
-        run: ./gradlew clean build
+        run: ./gradlew clean build --stacktrace
         env:
           DB_URL: jdbc:mysql://127.0.0.1:3306/local_life_test
           DB_USER: ci_user
