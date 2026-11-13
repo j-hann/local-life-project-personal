@@ -1,0 +1,4 @@
+*
+!build/
+!build/libs/
+!build/libs/local-life-personal-backend-0.0.1-SNAPSHOT.jar
