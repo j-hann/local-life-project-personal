@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY build/libs/local-life-personal-backend-0.0.1-SNAPSHOT.jar app.jar
 
-USER 10001
+USER USER 10001:10001
 
 EXPOSE 8080
 
